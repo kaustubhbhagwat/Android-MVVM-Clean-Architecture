@@ -1,4 +1,4 @@
-package com.example.mvvmcleanarchitecture
+package com.example.mvvmcleanarchitecture.feature_note.presentation
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
