@@ -6,6 +6,7 @@ import com.example.mvvmcleanarchitecture.feature_note.data.data_source.NoteDatab
 import com.example.mvvmcleanarchitecture.feature_note.data.domain.repository.NoteRepository
 import com.example.mvvmcleanarchitecture.feature_note.data.domain.use_case.AddNote
 import com.example.mvvmcleanarchitecture.feature_note.data.domain.use_case.DeleteNote
+import com.example.mvvmcleanarchitecture.feature_note.data.domain.use_case.GetNote
 import com.example.mvvmcleanarchitecture.feature_note.data.domain.use_case.GetNotes
 import com.example.mvvmcleanarchitecture.feature_note.data.domain.use_case.NotesUseCases
 import com.example.mvvmcleanarchitecture.feature_note.data.repository.NoteRepositoryImpl
@@ -39,7 +40,8 @@ object AppModule {
         return NotesUseCases(
             getNotes = GetNotes(repository),
             deleteNote = DeleteNote(repository),
-            addNote = AddNote(repository)
+            addNote = AddNote(repository),
+            getNote = GetNote(repository)
         )
     }
 }

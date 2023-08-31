@@ -1,4 +1,4 @@
-package com.example.mvvmcleanarchitecture.feature_note.presentation.notes
+package com.example.mvvmcleanarchitecture.feature_note.presentation.notes.componenets
 
 import androidx.compose.foundation.Canvas
 import androidx.compose.foundation.layout.Box

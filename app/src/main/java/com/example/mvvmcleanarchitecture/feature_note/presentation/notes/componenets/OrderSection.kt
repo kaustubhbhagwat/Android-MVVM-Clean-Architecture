@@ -1,4 +1,4 @@
-package com.example.mvvmcleanarchitecture.feature_note.presentation.notes
+package com.example.mvvmcleanarchitecture.feature_note.presentation.notes.componenets
 
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
