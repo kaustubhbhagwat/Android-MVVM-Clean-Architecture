@@ -1,4 +1,4 @@
-package com.example.mvvmcleanarchitecture.feature_note.presentation.notes.componenets
+package com.example.mvvmcleanarchitecture.feature_note.presentation.notes
 
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
@@ -11,6 +11,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import com.example.mvvmcleanarchitecture.feature_note.data.domain.util.NoteOrder
 import com.example.mvvmcleanarchitecture.feature_note.data.domain.util.OrderType
+import com.example.mvvmcleanarchitecture.feature_note.presentation.notes.componenets.DefaultRadioButton
 
 @Composable
 fun OrderSection(
