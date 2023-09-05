@@ -91,8 +91,9 @@ fun NoteItem(
             onClick = onDeleteCLick,
             modifier = Modifier.align(Alignment.BottomEnd)
         ) {
-            Icon(imageVector = Icons.Default.Delete, contentDescription ="Delete Note" )
-
+            Icon(imageVector = Icons.Default.Delete,
+                contentDescription ="Delete Note",
+                tint = MaterialTheme.colors.onSurface)
         }
     }
 
